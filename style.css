@@ -1,0 +1,178 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+body {
+    position: absolute;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li{
+    text-align: center;
+    float: right
+    ;
+}
+
+li a {
+    display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+.Product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+}
+
+.Product img {
+    width: 200px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+aside {
+    background-color: #111;
+}
+h1 {
+    text-align: center;
+    text-overflow: clip;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    size: 30px;
+}
+.penjelasan {
+    font-style: unset;
+}
+
+.home {
+    background: radial-gradient(purple pink white);
+}
+.Product:hover{
+transform: translateY(-10px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.home p {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.home img {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Terpilih {
+    background:radial-gradient(rgb(255, 255, 255), rgb(145, 241, 245));
+    padding: 30px 0;
+    margin-top: 80px ;
+   margin: 40px;
+   align-items: right;
+   display: flex; 
+   justify-content: center;
+   gap: 20px; 
+}
+.Terpilih h1 {
+    text-align: center;
+}   
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 50px;
+    transform: translateY(-10px);
+}
+
+.box img  {
+    width: 200px;
+}
+
+.logo {
+    background: radial-gradient(white, red);
+}
+.contact p {
+    text-align: center;
+    background: radial-gradient(green blue);
+
+}
+
+.banner {
+   background-color: aqua;
+   margin-top: 0%;
+}
+ .Buy {
+    background-color: #1f2d73;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+   cursor: pointer;
+}
+
+
+
